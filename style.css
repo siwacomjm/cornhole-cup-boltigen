@@ -63,7 +63,7 @@ img { max-width: 100%; display: block; }
 .nav-toggle { display: none; border: 2px solid var(--black); background: var(--red); color: white; border-radius: 999px; padding: .62rem .95rem; font-weight: 950; }
 
 .hero { min-height: 860px; display: grid; place-items: end start; position: relative; overflow: hidden; background: var(--black); }
-.hero-poster { position: absolute; inset: 0; background-image: url('assets/hero-header.jpg'); background-size: cover; background-position: center top; transform: scale(1.02); }
+.hero-poster { position: absolute; inset: 0; background-image: url('assets/header_bild.png'); background-size: cover; background-position: center top; transform: scale(1.02); }
 .hero-poster::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(21,17,15,.88) 0%, rgba(21,17,15,.55) 42%, rgba(21,17,15,.05) 76%), linear-gradient(0deg, rgba(181,18,27,.92), transparent 28%, transparent 70%, rgba(247,234,216,.35)); }
 .hero-content { position: relative; z-index: 2; padding: 0 0 82px; color: white; max-width: 780px; }
 .stamp { display: inline-flex; transform: rotate(-2deg); margin: 0 0 1.2rem; padding: .55rem .85rem; border: 3px solid var(--paper); border-radius: 999px; background: var(--red); color: white; text-transform: uppercase; font-family: Impact, "Arial Black", sans-serif; letter-spacing: .06em; box-shadow: 8px 8px 0 var(--black); }
