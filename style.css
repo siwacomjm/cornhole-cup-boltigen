@@ -210,3 +210,82 @@ h3 { font-size: 1.45rem; }
   .reveal, .button { transition: none; }
   .button:hover { transform: none; }
 }
+
+.conditions {
+  background:
+    radial-gradient(circle at top left, rgba(185, 20, 32, .10), transparent 28rem),
+    linear-gradient(180deg, #fff8ea 0%, #f7ecdc 100%);
+}
+
+.conditions .narrow {
+  max-width: 940px;
+}
+
+.conditions h2 {
+  text-transform: uppercase;
+}
+
+.conditions-intro {
+  display: inline-block;
+  margin: 1rem 0 1.4rem;
+  padding: .55rem .9rem;
+  background: var(--ink);
+  color: var(--paper);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.conditions-list {
+  display: grid;
+  gap: 18px;
+  margin-top: 2rem;
+}
+
+.condition-item {
+  padding: 24px;
+  background: rgba(255, 255, 255, .72);
+  border: 2px solid rgba(27, 22, 18, .12);
+  box-shadow: 8px 8px 0 rgba(185, 20, 32, .16);
+}
+
+.condition-item h3 {
+  margin-bottom: 1rem;
+  color: var(--red);
+  text-transform: uppercase;
+  letter-spacing: -.02em;
+}
+
+.condition-item p {
+  margin: 0 0 .85rem;
+  color: var(--muted);
+}
+
+.condition-item p:last-child {
+  margin-bottom: 0;
+}
+
+.condition-item ul {
+  margin: .5rem 0 1rem;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.condition-item li {
+  margin-bottom: .45rem;
+}
+
+.condition-item strong {
+  color: var(--ink);
+}
+
+@media (max-width: 700px) {
+  .condition-item {
+    padding: 18px;
+    box-shadow: 5px 5px 0 rgba(185, 20, 32, .16);
+  }
+
+  .conditions-intro {
+    font-size: .85rem;
+  }
+}
