@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title">
-  <title id="title">Platzhalter Logo Musikgesellschaft Boltigen</title>
-  <rect width="760" height="360" rx="44" fill="#fff7e8"/>
-  <circle cx="168" cy="180" r="94" fill="#a91521"/>
-  <path d="M138 101v135c0 23 19 42 42 42s42-19 42-42-19-42-42-42c-8 0-15 2-22 6v-62l100-27v-39L138 101z" fill="#fff"/>
-  <text x="310" y="146" font-family="Arial, sans-serif" font-size="46" font-weight="900" fill="#241714">Musikgesellschaft</text>
-  <text x="310" y="210" font-family="Arial, sans-serif" font-size="66" font-weight="900" fill="#a91521">Boltigen</text>
-  <text x="310" y="260" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#715f57">Logo-Platzhalter – bei Bedarf ersetzen</text>
-</svg>
