@@ -4,10 +4,11 @@ Statische Website für den Cornhole Cup Boltigen im Stil des Flyers/Headers.
 
 ## Inhalt
 
-- `index.html` – Website-Inhalt
-- `style.css` – Design im Flyer-Stil und mobile Darstellung
+- `index.html` – vollständiger Website-Inhalt
+- `style.css` – vollständiges Design im Flyer-Stil und mobile Darstellung
 - `script.js` – Menü und dezente Animationen
-- `assets/` – Header, Logo, Musikgesellschaft-Logo, QR-Code und Social-Bild
+- `assets/` – Header, Logo, Musikgesellschaft-Logo, QR-Code, Social-Bild und offizielles Regeldokument
+- `assets/sg_ch_regeln_online.pdf` – offizielles Cornhole-Regeldokument
 
 ## Veröffentlichung mit GitHub Pages
 
@@ -33,7 +34,19 @@ Danach ist die Seite unter einer Adresse wie dieser erreichbar:
 - Kategorien: Kinder & Erwachsene
 - Startgeld: Fr. 10.00 pro Team
 - Anmeldeschluss: 31. Juli 2026, 23.59 Uhr
+- Offizielles Regeldokument: `assets/sg_ch_regeln_online.pdf`
+
+## Welche Dateien bei einem bestehenden Repository austauschen?
+
+Wenn die Website bereits auf GitHub liegt, ersetze diese vollständigen Dateien/Ordner:
+
+1. `index.html`
+2. `style.css`
+3. `README.md`
+4. den kompletten Ordner `assets/`
+
+`script.js` wurde nicht geändert, ist aber im Paket weiterhin enthalten.
 
 ## Hinweise
 
-Die Website ist rein statisch und benötigt kein Backend. Das Anmeldeformular läuft extern über Microsoft Forms.
+Die Website ist rein statisch und benötigt kein Backend. Das Anmeldeformular läuft extern über Microsoft Forms. Der Turniermodus kann je nach Anzahl Teams durch die Turnierleitung angepasst und vor Ort kommuniziert werden.
