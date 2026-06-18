@@ -370,3 +370,98 @@ h3 { font-size: 1.45rem; }
     width: 100%;
   }
 }
+
+/* MOBILE FIX: verhindert horizontales Überlaufen auf Android */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hero darf nie breiter als der Bildschirm werden */
+.hero,
+.hero * {
+  max-width: 100%;
+}
+
+.hero {
+  overflow: hidden;
+}
+
+/* Mobile Hero-Texte kleiner und umbrechbar machen */
+@media (max-width: 700px) {
+  .hero {
+    min-height: auto;
+    padding: 42px 0 56px;
+  }
+
+  .hero .wrap,
+  .hero-grid,
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-content {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .hero h1,
+  .hero-title {
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(3.2rem, 18vw, 4.8rem);
+    line-height: 0.88;
+    letter-spacing: -0.05em;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .hero .slogan,
+  .slogan {
+    max-width: 100%;
+    font-size: clamp(1.45rem, 7vw, 2.2rem);
+    line-height: 1.05;
+    overflow-wrap: break-word;
+  }
+
+  .hero .lead,
+  .lead {
+    max-width: 100%;
+    font-size: 1.08rem;
+    line-height: 1.5;
+  }
+
+  .hero-actions,
+  .hero-actions .button,
+  .button.primary {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Sehr schmale Android-Geräte */
+@media (max-width: 420px) {
+  .hero h1,
+  .hero-title {
+    font-size: clamp(2.8rem, 17vw, 4.1rem);
+    line-height: 0.9;
+  }
+
+  .hero-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
